@@ -1,4 +1,4 @@
-# WhichOne - Animations
+# WhichOne - Simple Quiz App
 
 **WhichOne** app represents the main screen of a quiz application. It manages the quiz flow, displays questions, handles user interactions, and shows quiz results. The implementation utilizes Jetpack Compose for declarative UI development and Hilt for dependency injection. Below is a summary of the key features:
 
