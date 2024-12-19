@@ -1,15 +1,28 @@
-*.iml
+# Gradle files
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
+/.gradle
+/build/
+
+# Android Studio/IntelliJ IDEA files
+.idea/
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# macOS-specific files
 .DS_Store
-/build
-/captures
+
+# Captures (screenshots/videos taken with Android Studio)
+captures/
+
+# NDK files
 .externalNativeBuild
-.cxx
-local.properties
+.cxx/
+
+# Miscellaneous
+*.iml
+*.hprof
