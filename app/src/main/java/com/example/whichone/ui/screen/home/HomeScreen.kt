@@ -35,11 +35,10 @@ import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.whichone.ui.QuizStatus
+import com.example.whichone.utils.QuizStatus
 import com.example.whichone.ui.component.FlipCard
 import com.example.whichone.ui.component.QuizResultCard
 import com.example.whichone.ui.theme.WhichOneTheme
-
 @Composable
 fun HomeScreen(viewModel: HomeViewModel = hiltViewModel()) {
     val quizStatus by viewModel.quizStatus.collectAsState()

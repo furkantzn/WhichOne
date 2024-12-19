@@ -1,4 +1,4 @@
-package com.example.whichone.ui
+package com.example.whichone.utils
 
 enum class CardStatus {
     DEFAULT,

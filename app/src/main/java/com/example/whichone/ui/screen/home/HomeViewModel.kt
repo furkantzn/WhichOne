@@ -4,9 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.whichone.data.model.Option
 import com.example.whichone.data.model.Question
-import com.example.whichone.data.model.UserAnswer
 import com.example.whichone.data.repository.QuestionRepository
-import com.example.whichone.ui.QuizStatus
+import com.example.whichone.utils.QuizStatus
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
